@@ -1,0 +1,10 @@
+platform :ios, '10.0'
+
+target 'my-new-app' do
+  use_frameworks!
+  pod 'ReactNativeMaps', :path => '../node_modules/react-native-maps'
+
+  # Additional pods you may require
+  pod 'GoogleMaps', '~> 3.10.0'
+  pod 'Google-Maps-iOS-Utils', '~> 2.1'
+end
